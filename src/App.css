@@ -1,0 +1,126 @@
+body {
+  background-color: rgba(87, 187, 113, 15%) !important;
+}
+.headerTip {
+  display: flex;
+  height: 45px;
+  background-color: #262e42;
+  border-radius: 0px 0px 20px 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.pageFooter {
+  height: 45px;
+  background-color: #262e42;
+  border-radius: 20px 20px 0px 0px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+.logo {
+  align-self: start;
+  height: 80px;
+  margin-left: 30px;
+}
+.verticalLine {
+  display: flex;
+  align-self: center;
+  height: 450px;
+  width: 1px;
+  border-left: 1px solid #b3b1b1;
+  background-color: #8b8989;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.formBox {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgb(177, 177, 177);
+  width: 80%;
+  height: 100%;
+  margin: 0 10%;
+}
+.socialMediaLink {
+  background: none;
+  border: none;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+.cardHeader {
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+p {
+  color: #57bb71;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.inputField {
+  width: 100%;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(173, 173, 173);
+  padding-left: 15px;
+  padding-right: 10px;
+}
+input:focus {
+  outline: none;
+}
+.formRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.formConrainer {
+  width: 70%;
+  margin: 0 15%;
+}
+.checkBoxInput {
+  margin: 5px;
+}
+.logInBtn {
+  background-color: #57bb71;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+}
+.lines {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  align-items: center;
+}
+.horizonalLine {
+  height: 1px;
+  width: 30%;
+  border-left: 1px solid #b3b1b1;
+  background-color: #8b8989;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.btnsBox {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+}
+.spanRow {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none !important;
+}
